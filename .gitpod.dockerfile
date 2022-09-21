@@ -1,4 +1,4 @@
-FROM gitpod/workspace-full
+FROM gitpod/workspace-full:2022-06-20-19-54-55
 # Install image generator
 USER root
 RUN apt-get update && apt-get install -y graphviz libgraphviz-dev pkg-config python3-dev
